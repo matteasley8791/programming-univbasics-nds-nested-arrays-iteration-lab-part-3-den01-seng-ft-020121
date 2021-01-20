@@ -8,4 +8,5 @@ def join_nested_strings(src)
     while element_index < src[row_index].count do 
       [row_index][element_index].class == String 
       nested_string 
+      
 end
