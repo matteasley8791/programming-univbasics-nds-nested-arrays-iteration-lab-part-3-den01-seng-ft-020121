@@ -9,5 +9,7 @@ def join_nested_strings(src)
       [row_index][element_index].class == String 
       nested_string 
     end 
-    element_index
+    element_index += 1 
+  end 
+  row_index += 1 
 end
